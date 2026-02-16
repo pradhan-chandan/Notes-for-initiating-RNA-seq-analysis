@@ -1,4 +1,4 @@
-# Notes-for-initiating-RNA-seq-analysis
+# Notes-for-initiating-RNA-seq-analysis-from-plant-fungal-system
 Practical workflow documentation for initiating RNA-Seq data analysis from raw FASTQ files to get hands-on practice
 
 
