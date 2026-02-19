@@ -184,7 +184,7 @@ Command “which.max(data$MaxValue)”
 
 To run your seqs through SpliSER, follow the commands
 
-For looking at strandedness: craig says if u open the bam in IGV and colour reads by first of pair strand, and then look as a + strand gene (load gff file to see +/-), there are two scenarios:
+For looking at strandedness: if u open the bam in IGV and colour reads by first of pair strand, and then look as a + strand gene (load gff file to see +/-), there are two scenarios:
 
 #open IGV software > open your bam file to see the alignment > right click on the reads > choose “colour alignment by” > choose first-of-pair-strand > check for +ve strands (->) arrows and -ve strands (<-)  arrows.
 
@@ -192,6 +192,7 @@ For looking at strandedness: craig says if u open the bam in IGV and colour read
 
 CASE1. if the reads in the + strand gene are red (+strand) then use regtools -s 2 (RF)
 CASE2. if the reads in the + strand gene are blue (-strand) then use regtools -s 1 (FR)
+(sometimes you mmight need to check before proceding to the SpliSER step, as regtool might behave uncertainly)
 
 THEN later in spliser you will use the OPPOSITE.
 
